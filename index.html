@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ken's Journey of Life Encounters | Ken 的人生際遇之旅</title>
+    <style>
+        /* CSS Styles are embedded here for simplicity */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #007bff;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+
+        h2, h3 {
+            color: #007bff;
+            border-bottom: 2px solid #e2e6ea;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        .bilingual-section {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .bilingual-section h4 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .media-placeholder {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #e9ecef;
+            border-radius: 8px;
+            text-align: center;
+            color: #6c757d;
+            font-style: italic;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            padding-bottom: 10px;
+        }
+
+        .gallery-item {
+            min-width: 150px;
+            height: 100px;
+            background-color: #adb5bd;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 0.8em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table th, table td {
+            border: 1px solid #dee2e6;
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f8f9fa;
+        }
+
+        .categories-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .categories-list li {
+            background-color: #007bff;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 1px solid #dee2e6;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🗺️ Ken's Journey of Life Encounters</h1>
+        <p>Ken 的人生際遇之旅 🌟</p>
+    </header>
+
+    <div class="container">
+
+        <h2>About This Blog | 關於本網誌</h2>
+        <div class="bilingual-section">
+            <p><strong>English:</strong> Welcome! This space chronicles the moments, people, and places that shape a life. It's dedicated to sharing personal stories, reflections, and adventures through text, photos, and videos, presented in both English and Chinese.</p>
+            <p><strong>中文:</strong> 歡迎！這個空間記錄了塑造生命歷程的那些時刻、人物和地點。我們致力於透過文字、照片和影片，以中英雙語的方式，分享個人故事、反思和冒險經歷。</p>
+        </div>
+
+        <h2>Featured Encounter | 精選際遇</h2>
+        <h3 id="post-title">A Chance Meeting on the Silk Road | 絲綢之路上的偶遇</h3>
+
+        <div class="bilingual-section">
+            <h4>English</h4>
+            <p>The air in Dunhuang was thick with the dust of centuries, but the conversation we struck up with an elderly artisan changed the way I viewed history. He wasn't just carving wood; he was transmitting centuries of quiet resistance and enduring beauty through his hands. It was a powerful reminder that the greatest treasures of a journey often aren't landmarks, but the human connections made along the way.</p>
+
+            <div class="media-placeholder">
+                [Photo Gallery Placeholder: Insert 3-5 high-resolution photos here.]
+                <div class="gallery">
+                    <div class="gallery-item">Photo 1</div>
+                    <div class="gallery-item">Photo 2</div>
+                    <div class="gallery-item">Photo 3</div>
+                </div>
+            </div>
+            
+            <div class="media-placeholder" style="height: 200px;">
+                [Video Placeholder: Embed a short video clip (Vlog) of the encounter here.]
+            </div>
+
+            <h4>中文 (Chinese)</h4>
+            <p>敦煌的空氣中瀰漫著數百年的塵土氣息，但我們與一位年長匠人的交談，改變了我對歷史的看法。他不僅僅是在雕刻木頭；他正在透過雙手傳遞數世紀以來默默的堅持和不朽的美麗。這有力地提醒了我，旅途中最珍貴的寶藏往往不是地標，而是沿途建立的人際連結。</p>
+        </div>
+
+        <h2>Recent Encounters | 最新際遇</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date | 日期</th>
+                    <th>Title (English)</th>
+                    <th>標題 (中文)</th>
+                    <th>Type | 類型</th>
+                </tr>
+            </thead>
+            <tbody id="recent-posts-body">
+                <tr>
+                    <td>2025/12/10</td>
+                    <td><a href="#post-title">A Chance Meeting on the Silk Road</a></td>
+                    <td><a href="#post-title">絲綢之路上的偶遇</a></td>
+                    <td>Text + Media</td>
+                </tr>
+                <tr>
+                    <td>2025/12/05</td>
+                    <td>The Silence of the Andean Peaks</td>
+                    <td>安第斯山脈的寂靜</td>
+                    <td>Text + Photos</td>
+                </tr>
+                <tr>
+                    <td>2025/11/28</td>
+                    <td>Learning to Cook Authentic Sichuan Dishes</td>
+                    <td>學習烹飪正宗川菜</td>
+                    <td>Video</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Categories | 類別</h2>
+        <ul class="categories-list">
+            <li>People & Stories (人物與故事)</li>
+            <li>Travel & Adventure (旅行與冒險)</li>
+            <li>Food & Culture (美食與文化)</li>
+            <li>Reflection & Growth (反思與成長)</li>
+        </ul>
+
+    </div>
+
+    <footer>
+        &copy; 2025 Ken's Journey. All Rights Reserved. | 版權所有。
+    </footer>
+
+    </body>
+</html>
